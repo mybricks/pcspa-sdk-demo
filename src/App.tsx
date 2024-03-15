@@ -154,8 +154,8 @@ export default function MyDesigner() {
           <button className={css.primary} onClick={save}>
             保存
           </button>
-          <button onClick={preview}>预览</button>
-          <button onClick={publish}>发布到本地</button>
+          {/* <button onClick={preview}>预览</button>
+          <button onClick={publish}>发布到本地</button> */}
         </div>
         <div className={css.designer}>
           {
