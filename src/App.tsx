@@ -181,8 +181,8 @@ export default function MyDesigner() {
                 const index = plugins.findIndex(
                   (item) => item.name === 'locale'
                 )
-                const newPlugins = plugins.splice(index, 1)
-                return newPlugins
+                plugins.splice(index, 1)
+                return [...plugins]
               }}
               envExtra={{
                 // 扩展额外的 env
