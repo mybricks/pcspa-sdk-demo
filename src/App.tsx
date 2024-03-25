@@ -165,7 +165,7 @@ export default function MyDesigner() {
                 ref={designerRef}
                 useLocalResources={{
                   editorOptions: {},
-                  themeCss: ['/public/antd/antd@4.21.6.variable.min.css']
+                  themeCss: ['/public/antd/antd@4.21.6.min.css'],
                 }}
                 editorItems={(items) => { // 返回预置editors，同时支持修改
                   console.log(items)
